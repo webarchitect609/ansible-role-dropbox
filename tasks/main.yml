@@ -8,11 +8,6 @@
       - "gpgv"
       - "gnupg"
 
-- include_tasks: setup-repo-Debian.yml
-  when:
-    - ansible_os_family == 'Debian'
-    - ansible_distribution != 'Ubuntu'
-
 - include_tasks: setup-repo-Ubuntu.yml
   when:
     - ansible_distribution == 'Ubuntu'

@@ -16,7 +16,7 @@ Role Variables
 None of the variables need to be altered for installing the latest stable version of the application. 
 However, all available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    dropbox_package: nautilus-dropbox
+    dropbox_package: dropbox
     
 Package name to install
     
