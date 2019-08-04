@@ -3,7 +3,7 @@ Ansible Role: Dropbox
 
 [![Build Status](https://travis-ci.org/webarchitect609/ansible-role-dropbox.svg?branch=master)](https://travis-ci.org/webarchitect609/ansible-role-dropbox)
 
-Installs Dropbox from the official deb repository.
+Installs Dropbox from the [official deb repository](https://help.dropbox.com/installs-integrations/desktop/linux-commands#add).
 
 Requirements
 ------------
@@ -24,12 +24,14 @@ Package name to install
     
 Repository url.
     
-    dropbox_gpg_key_server: "pgp.mit.edu"
+    dropbox_gpg_key_server: "pool.sks-keyservers.net"
 
-GPG key server.
+GPG key server. The SKS key server pool is used.
+[It is not recomended](https://github.com/nginxinc/docker-nginx/issues/156) to use `pgp.mit.edu` as it may be down. 
 
     dropbox_gpg_key_id: "1C61A2656FB57B7E4DE0F4C1FC918B335044912E"
 
+GPG Key ID
 
 Dependencies
 ------------

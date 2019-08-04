@@ -1,5 +1,5 @@
 ---
 dropbox_package: dropbox
 dropbox_deb_source: "deb https://linux.dropbox.com/ubuntu {{ ansible_distribution_release }} main"
-dropbox_gpg_key_server: "pgp.mit.edu"
+dropbox_gpg_key_server: "pool.sks-keyservers.net"
 dropbox_gpg_key_id: "1C61A2656FB57B7E4DE0F4C1FC918B335044912E"
