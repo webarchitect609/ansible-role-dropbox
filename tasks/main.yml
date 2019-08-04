@@ -7,6 +7,8 @@
     packages:
       - "gpgv"
       - "gnupg"
+      # To allow binary signatures verification on downloading the Dropbox proprietary daemon.
+      - "python3-gpg"
 
 - include_tasks: setup-repo-Ubuntu.yml
   when:
