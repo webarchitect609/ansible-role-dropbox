@@ -11,7 +11,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-    #TODO Try, but likely to fail.
+    # TODO Try, but likely to fail.
     - name: Debian
       versions:
         - all
